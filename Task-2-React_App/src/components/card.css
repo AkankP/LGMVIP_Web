@@ -1,0 +1,77 @@
+button {
+    border-radius: 5px;
+    border: none;
+    background-color: #2980B9;
+    color: black;
+    padding: 12px;
+}
+  
+button:hover {
+  transition: 200ms;
+  transform: scale(1.1);
+}
+  
+button:focus {
+  outline: none;
+}
+  
+nav {
+  color: #85C1E9 ;
+  background-attachment: fixed;
+  background-color: #515A5A;
+}
+  
+.loader {
+  margin: 0 auto;
+}
+  
+.avatar {
+  border-radius: 70px;
+  margin-bottom: 10px;
+}
+  
+#main {
+  padding: 15px 50px;
+  margin: 0 auto;
+  display: none;
+}
+  
+#main img {
+  animation-delay: 5s;
+}
+  
+.profile {
+  max-width: 300px;
+  margin: 15px auto;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  border-color: rgba(32, 17, 238, 0.87);
+  border-radius: 20px;
+  background: linear-gradient(45deg, #85C1E9 , #3cb7e7);
+  box-shadow:  5px 5px 5px #3cb7e7,
+             -5px -5px 5px #85C1E9 ;
+
+}
+  
+.profile:hover {
+  transition: 500ms;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.6);
+}
+  
+.name {
+  font-family: cursive;
+  font-style: italic;
+  font-variant: small-caps;
+  color: #0E6655;
+  font-size: 25px;
+  font-weight: bold;
+}
+  
+.email {
+  background-color: #4b4b4b70;
+  border-radius: 40px;
+  font-family: cursive;
+  font-size: 18px;
+  overflow-wrap: break-word;
+}
